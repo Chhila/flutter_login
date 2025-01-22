@@ -235,6 +235,20 @@ class _OTPConfirmationPageState extends State<OTPConfirmationPage> {
                             ),
                           ],
                         ),
+                        SizedBox(height: 30),
+                        Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [Text("Code expired in "), Text("01:45", style: TextStyle(color: Colors.red))],
+                            ),
+                            SizedBox(height: 20),
+                            Text(
+                              "Send Again",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        )
                       ],
                     ),
 
