@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       title: 'Login',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      initialRoute: '/',
+      initialRoute: '/home',
       routes: {
         '/': (context) => LoginPage(),
         '/signin': (context) => SigninPage(),
